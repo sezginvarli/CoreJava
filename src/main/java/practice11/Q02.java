@@ -14,14 +14,14 @@ public class Q02 {
     */
     public static void main(String[] args) {
 
-        for(int row = 1; row<7; row++ ){//row control
+        for(int row=1; row<7; row++ ){//row control
             for(int space=1; space<row; space++ ){
 
                 System.out.print("*");
             }
             for(int digit=row; digit<7; digit++){//Digits
 
-                System.out.print(digit+" ");
+                System.out.print(digit + " ");
             }
             System.out.println("==>");
         }

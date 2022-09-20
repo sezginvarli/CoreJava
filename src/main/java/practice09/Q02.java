@@ -18,10 +18,10 @@ public class Q02 {
 
         for(int i=0; i<row; i++){
             for(int space=row-i; space>1; space--){
-                System.out.println(" ");
+                System.out.print(" ");
             }
             for(int star=0; star<=i; star++){
-                System.out.println("* ");
+                System.out.print("* ");
             }
             System.out.println();
         }
