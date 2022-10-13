@@ -17,12 +17,11 @@ public class Day14ForEachLoop04 {
         String sentenceWithoutPunctuation = sentence.replaceAll("\\p{Punct}", "");
         System.out.println(sentenceWithoutPunctuation);//Java is easy if you study Actually nothing is easy if you do not study
 
-        String words[] = sentenceWithoutPunctuation.split(" ");
+        String[] words = sentenceWithoutPunctuation.split(" ");
         System.out.println(Arrays.toString(words));//[Java, is, easy, if, you, study, Actually, nothing, is, easy, if, you, do, not, study]
 
         Arrays.sort(words, Comparator.comparingInt(String::length).reversed());
         System.out.println(Arrays.toString(words));
-
         System.out.println(words[0]);
 
         //How to see all the longest elements if there are many

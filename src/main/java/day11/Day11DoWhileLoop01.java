@@ -8,7 +8,7 @@ public class Day11DoWhileLoop01 {
             System.out.println("While Loop");
             i++;
         }
-        //This code block will not be execute, because i is not less than 1
+        //This code block will not be executed, because "i" is not less than 1
 
         int k = 1;
         do{
@@ -16,6 +16,6 @@ public class Day11DoWhileLoop01 {
             k++;
         }while(k<1);
         //Zero execution is possible in while-loop. But it is impossible in do-while-loop.
-        //Do-while-loop body is executed at least once.
+        //Do-while-loop body is going to execute at least once.
     }
 }

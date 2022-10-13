@@ -17,6 +17,9 @@ public class Day10ForLoop03 {
                 System.out.print(c);
             }
         }
+
+        System.out.println();
+
         /*
             Type code to print the following image on the console
                 X X X X X

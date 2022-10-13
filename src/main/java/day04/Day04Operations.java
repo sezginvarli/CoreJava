@@ -82,7 +82,7 @@ public class Day04Operations {
         System.out.println(5>4 || 5>6);
         System.out.println(1<3 || 1>1);
 
-        //Post - increment and pre-increment
+        //Post-increment and pre-increment
         //Post-increment
         int x = 12;
         int y = x++;

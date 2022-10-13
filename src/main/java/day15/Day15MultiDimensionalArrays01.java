@@ -45,9 +45,7 @@ public class Day15MultiDimensionalArrays01 {
             }
         }
 
-        //
         System.out.println();
-        //
 
         //Example 4: Convert two-dimensional array to one-dimensional array
         String[][] crr = {{"Java", "is"},{"easy", "to", "learn"},{"if", "you", "study", "hard"}};

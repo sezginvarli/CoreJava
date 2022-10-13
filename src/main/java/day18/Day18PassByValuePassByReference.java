@@ -23,10 +23,13 @@ public class Day18PassByValuePassByReference {
         System.out.println(addExclamationMark(greeting));//Hello!
         System.out.println(greeting);//Hello
     }
+
     public static int add(int num){
         num = num + 5;
+
         return num;
     }
+
     public static int doDiscount(String status, int price){
         switch (status){
             case "students":
@@ -43,7 +46,9 @@ public class Day18PassByValuePassByReference {
         }
         return price;
     }
+
     public static String addExclamationMark(String greeting){
+
         return greeting + "!";
     }
 }

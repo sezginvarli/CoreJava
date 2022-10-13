@@ -28,6 +28,7 @@ public class Day20StringBuffer01 {
         System.out.println("StringBuffer time: " + time1.until(time2, ChronoUnit.NANOS));
         System.out.println("StringBuilder time: " + time2.until(time3, ChronoUnit.NANOS));
     }
+
     public static StringBuffer performanceOfStringBuffer(String str){
         StringBuffer strBuffer = new StringBuffer(str);
         for(int i=0; i<10000; i++){
@@ -35,6 +36,7 @@ public class Day20StringBuffer01 {
         }
         return strBuffer;
     }
+
     public static StringBuilder performanceOfStringBuilder(String str){
         StringBuilder strBuilder = new StringBuilder(str);
         for(int i=0; i<10000; i++){

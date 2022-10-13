@@ -21,22 +21,32 @@ package day20;
 public class Overloading01 {
 
     public static void main(String[] args) {
-        add(3,4);
-        add(3,"Java");
+        System.out.println(add(3,4));
+        System.out.println(add(3,"Java"));
     }
+
     public static int add(int a, int b){
+
         return a + b;
     }
+
     public static int add(int a, int b, int c){
+
         return a + b + c;
     }
+
     public static double add(double a, double b){
+
         return a + b;
     }
+
     public static String add(String a, int b){
+
         return a + b;
     }
+
     public static String add(int a, String b){
+
         return a + b;
     }
 }

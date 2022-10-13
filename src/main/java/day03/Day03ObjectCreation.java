@@ -21,11 +21,14 @@ public class Day03ObjectCreation {
     }
 
     public String printName(String firstname, String lastname){
+
         return firstname + lastname;
     }
     public int calculateAge(int dob){
+
         return 2022 - dob;
     }
+
     int height = 185;
     String id = "Sp2022-001";
 }

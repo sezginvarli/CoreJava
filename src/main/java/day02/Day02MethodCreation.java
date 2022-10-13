@@ -5,7 +5,7 @@ public class Day02MethodCreation {
         public static void main(String[] args) {
             System.out.println(addIntegers(12,5));
             System.out.println(multiplyIntegers(8,5));
-            System.out.println(substractIntegers(4,5));
+            System.out.println(subtractIntegers(4,5));
             System.out.println(divideIntegers(9.6,2));
         }
         public static int addIntegers(int a, int b){
@@ -16,7 +16,7 @@ public class Day02MethodCreation {
 
             return a * b;
         }
-        public static int substractIntegers(int x, int y){
+        public static int subtractIntegers(int x, int y){
 
             return x - y;
         }

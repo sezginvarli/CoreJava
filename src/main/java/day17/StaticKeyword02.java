@@ -12,6 +12,6 @@ public class StaticKeyword02 {
 
         //To access "static" things using objects is allowed
         //but not recommended
-        System.out.println(obj4.sCounter);
+        System.out.println(obj4.sCounter);//1
     }
 }

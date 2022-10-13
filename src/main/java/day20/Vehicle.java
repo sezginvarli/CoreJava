@@ -11,27 +11,27 @@ package day20;
           ii)"constructors" do not have return type but "methods" must have
           iii)The name of "constructors" must match with the name of the Class, but "methods" can use any name
     */
-public class Vehicles {
+public class Vehicle {
     String make;
     String model;
     int year;
     double price;
 
-    public Vehicles(){
+    public Vehicle(){
 
     }
-    public Vehicles(String make, String model, int year, double price){
+    public Vehicle(String make, String model, int year, double price){
         this.make = make;
         this.model = model;
         this.year = year;
         this.price = price;
     }
-    public Vehicles(String make, String model, double price){
+    public Vehicle(String make, String model, double price){
         this.make = make;
         this.model = model;
         this.price = price;
     }
-    public Vehicles(String make, String model, int year){
+    public Vehicle(String make, String model, int year){
         this.make = make;
         this.model = model;
         this.year = year;

@@ -1,7 +1,7 @@
 package day08;
 
 public class Day08StringManipulation01 {
-    //If your code gives corrects output for some data and it doesn't give
+    //If your code gives correct output for some data and if it doesn't give
     //correct data for some others it can not be accepted. That kind of codes are called
     //"Hard Coding"
     //If your code works for all data, it is called "Dynamic code". Every time you must

@@ -2,7 +2,7 @@ package day09;
 
 import java.util.Scanner;
 
-public class Day09StringManipulation02 {
+public class Day09StringManipulations02 {
     /*
           Check if a password has the following conditions
             i)It should not be empty
@@ -32,14 +32,14 @@ public class Day09StringManipulation02 {
             System.out.println("Password doesn't have spaces at the beginning and at the end");
         }
         if(pwd.indexOf("i")==4){
-            System.out.println("First occurrance of 'i' is at index 4");
+            System.out.println("First occurrence of 'i' is at index 4");
         }else{
             System.out.println("Password should have 'i' at index 4");
         }
         if(pwd.lastIndexOf('K')==5){
-            System.out.println("Last occurrance of 'K' is at index 5");
+            System.out.println("Last occurrence of 'K' is at index 5");
         }else{
-            System.out.println("Last occurance of 'K' should be at index 5");
+            System.out.println("Last occurrence of 'K' should be at index 5");
         }
     }
 }

@@ -1,6 +1,6 @@
 package day09;
 
-public class Day09StringManipulation04 {
+public class Day09StringManipulations04 {
     //Type a code to find the number of punctuation marks used in a String.
     public static void main(String[] args) {
         String str = "Wow!... Ali is 13 years old, and he is a university student.";
@@ -20,9 +20,11 @@ public class Day09StringManipulation04 {
         System.out.println(limitDecimalPart(10.5f));
     }
     public static String greetingUser(String name){
-        return String.format("Hi %si How are you?", name);
+
+        return String.format("Hi %s How are you?", name);
     }
     public static String limitDecimalPart(float number){
+
         return String.format("The price is %.5f", number);
     }
 }
