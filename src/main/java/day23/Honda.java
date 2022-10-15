@@ -13,7 +13,7 @@ package day23;
         9)Can we make an "abstract class" final class?
           "final classes" cannot have child classes, we create "abstract classes" to do something mandatory for child classes.
           This is contradiction because of that Java does not allow to make an abstract class "final"
-        10)"abstract methods" were created to override, if you make an abstract method "private" it cannot be overridden therefore
+        10)"abstract methods" were created to override, if you make an abstract method "private" it cannot be overridden, therefore
           Java does not allow to make an abstract method "private"
         11)We cannot create objects from "abstract classes" because "abstract classes" have something un-complete like
           "abstract methods"

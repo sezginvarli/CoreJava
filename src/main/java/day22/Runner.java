@@ -3,7 +3,7 @@ package day22;
 public class Runner {
     /*
         1) "Method Overriding" means updating "method body" to make the implementation specific for the "Child Class"
-        2) Mostly we do not touch access modifiers, and "return type" of the "Overridden Method"(The method in the parent class)
+        2) Mostly we do not touch access modifiers and "return type" of the "Overridden Method"(The method in the parent class)
         3) In "Method Overriding" method name can not be changed.
            If you change the method name it means you are creating a new method
         4) Inheritance is prerequisite for "Method Overriding". If there is no "parent-child" relationship, there will be no

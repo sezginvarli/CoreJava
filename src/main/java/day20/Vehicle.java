@@ -20,17 +20,20 @@ public class Vehicle {
     public Vehicle(){
 
     }
+
     public Vehicle(String make, String model, int year, double price){
         this.make = make;
         this.model = model;
         this.year = year;
         this.price = price;
     }
+
     public Vehicle(String make, String model, double price){
         this.make = make;
         this.model = model;
         this.price = price;
     }
+
     public Vehicle(String make, String model, int year){
         this.make = make;
         this.model = model;

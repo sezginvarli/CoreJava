@@ -9,11 +9,12 @@ interface HondaAC {
     /*
         Variables:
         1)Every variable is "public", "static" and "final" in interfaces.
-        2)If you want to type "public", "static" and "final" explicitly to make your code more readable you can do it.
+        2)If you want to type "public", "static" and "final" explicitly to make your code more readable, you can do it.
         3)Final variables must be initialized because of that every variable must be initialized in interfaces.
         4)If you have some variables whose signatures are same in parent interfaces, when you call them you have to declare
-          the name of the interface otherwise it will give compile time error.
+          the name of the interface, otherwise it will give compile time error.
     */
+
     String make = "Samsung";
     double price = 890.00;
     double number = 123;
@@ -24,7 +25,7 @@ interface HondaAC {
         2)Using "abstract" keyword is optional for methods
         3)All methods in an interface must be "public"
         4)Normally we can not create method with body in an interface. But java created "default method" you can use them
-          in an interface they will have body.
+          in an interface, they will have body.
     */
     void cool();
     void run();

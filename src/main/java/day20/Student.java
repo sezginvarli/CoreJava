@@ -9,7 +9,7 @@ package day20;
         3)How to hide data
             By using "private" access modifier, we can hide the data
         4)After hiding data how can you use it?
-            After hiding data by the help of the getters I can access to encapsulated data
+            After hiding data by the help of the getters we can access to encapsulated data
             Note: getter methods i)Should have "public" access modifier
                                  ii)It's return type must be same with the data type of the variable
                                  iii)getter methods are named like "get + capitalized variable name"
@@ -24,7 +24,7 @@ package day20;
           4)Create setters
           5)Create toString()
           Note: In this class, getters and setters are called "Java Beans" as well
-        7)If you do not create any setter() the class will be "immmutable class"
+        7)If you do not create any setter(), the class will be "immutable class"
     */
 public class Student {
     //1)Create private variables
@@ -34,6 +34,7 @@ public class Student {
 
     //2)Create constructors you need
     public Student() {
+
     }
 
     public Student(String name, int age, boolean successful) {
@@ -71,7 +72,7 @@ public class Student {
     }
 
     //5)Create toString()
-    @Override //If you want to see object details on the console, create "toString" method.
+    @Override //If you want to see object details on the console, create "toString()" method.
     public String toString() {
         return "Student{" +
                 "name='" + name + '\'' +

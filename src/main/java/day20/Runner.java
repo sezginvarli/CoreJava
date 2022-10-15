@@ -14,7 +14,7 @@ public class Runner {
 
     /*
     Note 1: When we call a variable in a parent-child relationship look at the data type of the object
-    Note 2: When we call a method in a parent-child relationship look at the constructor of object
+    Note 2: When we call a method in a parent-child relationship look at the constructor of the object
     Note 3: There is "IS-A" relationship from "child class" to "parent class"
     Note 4: There is "HAS-A" relationship from "parent class" to "child class"
     Note 5: If there is no "parent-child relationship" you can not have "HAS-A" or "IS-A" relationship
@@ -37,6 +37,7 @@ public class Runner {
         bird1.tweet();
         bird1.eat();
         bird1.move();
+        bird1.drink();
         bird1.weight();
     }
 }
