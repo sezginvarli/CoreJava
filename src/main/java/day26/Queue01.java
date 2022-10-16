@@ -20,12 +20,12 @@ public class Queue01 {
 
         Queue<String> q2 = new LinkedList<>();
 
-        //Retrieves, but does not remove, the head of this queue.
+        //Retrieves but does not remove the head of this queue.
         //if this queue is empty, it throws NoSuchElementException
         System.out.println(q1.element());//Rick
-        //q2.element();//throws NoSuchElementException
+        //q2.element() //throws NoSuchElementException
 
-        //Retrieves, but does not remove, the head of this queue, or returns null if this queue is empty
+        //Retrieves but does not remove the head of this queue or returns null if this queue is empty
         System.out.println(q1.peek());//Rick
         System.out.println(q2.peek());//null
 
@@ -36,7 +36,7 @@ public class Queue01 {
         q1.offer("XXXXX");
         System.out.println(q1);
 
-        //Retrieves and removes the head of this queue, or returns null if this queue is empty.
+        //Retrieves and removes the head of this queue or returns null if this queue is empty.
         System.out.println(q1.poll());
         System.out.println(q1);
 
@@ -47,7 +47,6 @@ public class Queue01 {
         q3.add("Glenn");
         q3.add("Megan");
         q3.add("Daryl");
-
         System.out.println(q3);//[Daryl, Glenn, Maggie, Rick, Megan]
     }
 }

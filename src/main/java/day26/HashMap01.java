@@ -15,7 +15,6 @@ public class HashMap01 {
     */
     public static void main(String[] args) {
         HashMap<String, Integer> hMap = new HashMap<>();
-
         hMap.put("Tom Hanks", 13);
         hMap.put("Brad Pitt", 24);
         hMap.put("Angelina Julie", 46);
@@ -27,6 +26,7 @@ public class HashMap01 {
         //Example 1: How many letters were used in all names?
         Set<String> keys = hMap.keySet();
         int totalNumOfLetters = 0;
+        //[Tom Hanks, Brad Pitt, Cuneyt Arkin, Angelina Julie, Alex Alex]
         for(String w : keys){
             totalNumOfLetters = totalNumOfLetters + w.replaceAll("[^a-zA-Z]", "").length();
         }

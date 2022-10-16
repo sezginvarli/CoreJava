@@ -8,7 +8,6 @@ public class LinkedHashSet01 {
     */
     public static void main(String[] args) {
         LinkedHashSet<String> lhSet = new LinkedHashSet<>();
-
         System.out.println(lhSet.add(null));// true
         System.out.println(lhSet.add(null));// false
         lhSet.add("A");
@@ -17,7 +16,6 @@ public class LinkedHashSet01 {
         lhSet.add("M");
         lhSet.add("KLM12");
         lhSet.add("?");
-
         System.out.println(lhSet);// [null, A, BFED, ZK, M, KLM12, ?]
     }
 }

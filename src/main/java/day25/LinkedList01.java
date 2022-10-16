@@ -28,17 +28,18 @@ public class LinkedList01 {
         System.out.println(linked.remove("X"));//Removes the first occurrence of the specified element from the list. It will return boolean.
         System.out.println(linked.remove(3));//Removes the element at the specified position in this list. It will return removed element.
         //linked.removeAll(list);//Removes all of this collection's elements that are also contained in the specified collection (optional operation).
-        // linked.removeIf(t->t.length()<3);
-        // linked.clear();
-        System.out.println(linked.element());//Retrieves, but does not remove, the head (first element) of this list.==> copy + paste
+        //linked.removeIf(t->t.length()<3);
+        //linked.clear();
+
+        System.out.println(linked.element());//Retrieves, but does not remove, the head (first element) of this list. ==> copy + paste
         //Throws: //NoSuchElementException – if this list is empty
 
         System.out.println(linked.peek());//Retrieves, but does not remove, the head (first element) of this list. ==> copy + paste
-        // Gives null if this list is empty
+        //Gives null if this list is empty
 
         System.out.println(linked.poll());//Retrieves and removes the head (first element) of this list. ==> cut + paste
-        // Returns null if this list is empty
+        //Returns null if this list is empty
 
-        System.out.println("After removing: "+linked);
+        System.out.println("After removing: " + linked);
     }
 }
