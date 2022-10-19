@@ -3,8 +3,8 @@ package day29;
 public class E05 {
     /*
         What is the difference between "Exception" and "Error"?
-          "Exception"s can be handled, your app can work after handling Exception
-          "Error"s cannot be handled, your app cannot work after getting any error
+          "Exception"s can be handled, our app can work after handling Exception
+          "Error"s cannot be handled, our app cannot work after getting any error
         Note: "Exception"s and "Error"s are the child of "Throwable"
 
         Common Errors: i)OutOfMemoryError: It occurs if the "Heap" memory is full
@@ -40,28 +40,30 @@ public class E05 {
     3)Create "toString()" method to be able to see the message when the exception was thrown
  */
 class IllegalGradeException extends Exception{
-
     String message;
 
     public IllegalGradeException(String message){
+
         this.message = message;
     }
 
     public String toString(){
+
         return message;
     }
 }
 
 //How to create "Custom Un-Checked Exception" Class
 class IllegalAgeException extends RuntimeException{
-
     String message;
 
     public IllegalAgeException(String message){
+
         this.message = message;
     }
 
     public String toString(){
+
         return message;
     }
 }

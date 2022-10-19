@@ -11,14 +11,12 @@ public class E03 {
 
         String s = null;
         getNumOfCharsInString(s);// NullPointerException ==> Runtime Exception
-
     }
 
     public static void getNumOfCharsInString(String s){
-
         try {
             System.out.println(s.length());
-        }catch(NullPointerException e){
+        }catch (NullPointerException e){
             System.err.println(e.getMessage() + " length() method was used with null String");
         }
     }

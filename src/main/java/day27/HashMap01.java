@@ -13,11 +13,11 @@ public class HashMap01 {
 
         //Remove punctuation marks and spaces and digits and symbols
         s = s.replaceAll("[^a-zA-Z]", "");
-        System.out.println(s);//abaa
+        System.out.println(s);//tomsarephantoms
 
         //Get the characters one by one
         String[] letters = s.split("");
-        System.out.println(Arrays.toString(letters));//[a, b, a, a]
+        System.out.println(Arrays.toString(letters));//[t, o, m, s, a, r, e, p, h, a, n, t, o, m, s]
 
         //Count the occurrences
         Map<String, Integer> result = new HashMap<>();
@@ -26,7 +26,7 @@ public class HashMap01 {
             if(numOfOccurrence==null){
                 result.put(w, 1);
             }else{
-                result.put(w, numOfOccurrence+1);
+                result.put(w, numOfOccurrence + 1);
             }
         }
         System.out.println(result);
