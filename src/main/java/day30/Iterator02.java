@@ -7,7 +7,6 @@ import java.util.List;
 public class Iterator02 {
 
     public static void main(String[] args) {
-
         List<Integer> list = new ArrayList<>();
         list.add(5);
         list.add(3);
@@ -16,17 +15,13 @@ public class Iterator02 {
         list.add(9);
         list.add(8);
         list.add(2);
-
         System.out.println("list = " + list);//[5, 3, 7, 1, 9, 8, 2]
 
         Iterator ite1 = list.iterator();
-
         for(int i=0; i<list.size(); i++){
             System.out.println(ite1.hasNext() + " == " + ite1.next());
         }
-
         System.out.println(ite1.hasNext());//false
         System.out.println(ite1.next());//NoSuchElementException
     }
-
 }

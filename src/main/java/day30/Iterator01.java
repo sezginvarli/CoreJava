@@ -6,7 +6,6 @@ import java.util.List;
 public class Iterator01 {
 
     public static void main(String[] args) {
-
         List<Integer> list = new ArrayList<>();
         list.add(5);
         list.add(3);
@@ -15,7 +14,6 @@ public class Iterator01 {
         list.add(9);
         list.add(8);
         list.add(2);
-
         System.out.println("list = " + list);
 
         for(Integer w : list){
@@ -30,10 +28,7 @@ public class Iterator01 {
             System.out.println(w + 3 + " ");
         }
 
-        System.out.println();
         System.out.println(list);
-
-        //With the foreach loop, you can access all elements without using index, but we can not make permanent changes
+        //With the foreach loop, we can access all elements without using index, but we can not make permanent changes
     }
-
 }

@@ -13,7 +13,7 @@ public class Date01 {
         System.out.println(currentDate1.plusDays(5));//2022-09-25
         System.out.println(currentDate1.plusMonths(3));//2022-12-20
         System.out.println(currentDate1.plusYears(2));//2024-09-20
-        System.out.println(currentDate1.plusYears(1).plusMonths(2).plusDays(6));//2023-011-26
+        System.out.println(currentDate1.plusYears(1).plusMonths(2).plusDays(6));//2023-11-26
 
         System.out.println(currentDate1.getYear());//2022
         System.out.println(currentDate1.getMonth());//SEPTEMBER
@@ -65,8 +65,8 @@ public class Date01 {
         //How to format time
         LocalTime localTime = LocalTime.now();
         DateTimeFormatter dtf2 = DateTimeFormatter.ofPattern("HH:mm a");//hh => am-pm time format
-                                                                      //HH => 24 hours time format
-                                                                      //a => to put am-pm at the end
+                                                                        //HH => 24 hours time format
+                                                                        //a => to put am-pm at the end
         System.out.println(dtf2.format(localTime));//19:29 PM
 
         //How to find difference between two dates
@@ -77,9 +77,8 @@ public class Date01 {
         Period age = Period.between(d2, d1);
         System.out.println("Age = " + age);//P27Y5M1D
 
-        //If you want to get specific date part use one of get method
+        //If you want to get specific date part, use one of get method
         int ageYear = Period.between(d2, d1).getYears();
         System.out.println(ageYear);//27
     }
-
 }
