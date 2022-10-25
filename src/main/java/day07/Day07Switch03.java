@@ -10,7 +10,7 @@ public class Day07Switch03 {
         System.out.println("Enter a letter to check if it is vowel or not");
         char c = input.next().toLowerCase().charAt(0);
 
-        switch(c){
+        switch (c) {
             case 'a':
             case 'e':
             case 'i':

@@ -19,7 +19,7 @@ public class Iterator04 {
 
         //Delete all elements by using iterator.
         Iterator ite1 = list.iterator();
-        while(ite1.hasNext()){
+        while (ite1.hasNext()) {
             ite1.next();
             ite1.remove();
 

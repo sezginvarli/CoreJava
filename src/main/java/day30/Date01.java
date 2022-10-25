@@ -34,7 +34,7 @@ public class Date01 {
         LocalTime currentTime1 = LocalTime.now();
         System.out.println("Current Time = " + currentTime1);//19:08:36.066691
 
-        for(int i=0; i<1000000000; i++){
+        for (int i = 0; i < 1000000000; i++) {
             i++;
         }
 
@@ -56,17 +56,17 @@ public class Date01 {
 
         //How to format date
         DateTimeFormatter dtf1 = DateTimeFormatter.ofPattern("dd-MM-yy");//M => Months, m => minutes
-                                                                         //MMM => First 3 letters of month
-                                                                         //MM => The number of the month
-                                                                         //MMMM => The full month name
-                                                                         //M => The number of month without 0 at the beginning
+        //MMM => First 3 letters of month
+        //MM => The number of the month
+        //MMMM => The full month name
+        //M => The number of month without 0 at the beginning
         System.out.println(dtf1.format(dateTime1));//20-09-22
 
         //How to format time
         LocalTime localTime = LocalTime.now();
         DateTimeFormatter dtf2 = DateTimeFormatter.ofPattern("HH:mm a");//hh => am-pm time format
-                                                                        //HH => 24 hours time format
-                                                                        //a => to put am-pm at the end
+        //HH => 24 hours time format
+        //a => to put am-pm at the end
         System.out.println(dtf2.format(localTime));//19:29 PM
 
         //How to find difference between two dates

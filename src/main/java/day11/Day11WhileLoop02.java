@@ -8,14 +8,14 @@ public class Day11WhileLoop02 {
         String strI = String.valueOf(i);
         String reverse = "";
 
-        int idx = strI.length()-1;
-        while(idx>-1){
+        int idx = strI.length() - 1;
+        while (idx > -1) {
             reverse = reverse + strI.charAt(idx);
             idx--;
         }
-        if(strI.equals(reverse)){
+        if (strI.equals(reverse)) {
             System.out.println("Palindrome");
-        }else{
+        } else {
             System.out.println("NOT Palindrome");
         }
     }

@@ -1,7 +1,7 @@
 package day24;
 
-//To make interfaces parent of a concrete class, use "implements" keyword instead of "extends"
-public class Civic implements HondaAC, Engine, Security{
+//To make interfaces parent of a concrete class, we use "implements" keyword instead of "extends"
+public class Civic implements HondaAC, Engine, Security {
 
     @Override
     public void cool() {

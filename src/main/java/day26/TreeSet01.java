@@ -5,8 +5,8 @@ import java.util.TreeSet;
 
 public class TreeSet01 {
     /*
-        1)TreeSet is for storing "unique elements" in "natural order"
-        2)TreeSet is very slow because of that we do not want to do adding and removing operations with TreeSet
+        1) TreeSet is for storing "unique elements" in "natural order".
+        2) TreeSet is very slow because of that we do not want to do adding and removing operations with TreeSet.
     */
     public static void main(String[] args) {
         TreeSet<String> tSet = new TreeSet<>();

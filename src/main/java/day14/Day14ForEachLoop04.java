@@ -26,8 +26,8 @@ public class Day14ForEachLoop04 {
 
         //How to see all the longest elements if there are many
         //[JavaJava, Actually, nothing, study, study, easy, easy, you, you, not, is, if, is, if, do]
-        for(String w : words){
-            if(w.length()==words[0].length()){
+        for (String w : words) {
+            if (w.length() == words[0].length()) {
                 System.out.print(w + " ");
             }
         }

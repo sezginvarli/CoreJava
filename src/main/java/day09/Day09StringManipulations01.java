@@ -16,23 +16,23 @@ public class Day09StringManipulations01 {
         System.out.println(str.lastIndexOf("e"));//1
 
         char c = str.charAt(0);
-        if(str.indexOf(c)==str.lastIndexOf(c)){
+        if (str.indexOf(c) == str.lastIndexOf(c)) {
             System.out.println(c);
         }
         char d = str.charAt(1);
-        if(str.indexOf(d)==str.lastIndexOf(d)){
+        if (str.indexOf(d) == str.lastIndexOf(d)) {
             System.out.println(d);
         }
         char e = str.charAt(2);
-        if(str.indexOf(e)==str.lastIndexOf(e)){
+        if (str.indexOf(e) == str.lastIndexOf(e)) {
             System.out.println(e);
         }
         char f = str.charAt(3);
-        if(str.indexOf(f)==str.lastIndexOf(f)){
+        if (str.indexOf(f) == str.lastIndexOf(f)) {
             System.out.println(f);
         }
         char g = str.charAt(4);
-        if(str.indexOf(g)==str.lastIndexOf(g)){
+        if (str.indexOf(g) == str.lastIndexOf(g)) {
             System.out.println(g);
         }
     }

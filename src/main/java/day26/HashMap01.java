@@ -7,11 +7,11 @@ import java.util.Set;
 
 public class HashMap01 {
     /*
-        1)HashMap is "not-thread safe"
-        2)HashMap is "non-synchronized"
-        3)HashMap does not put "entries" in any order
-        4)You can use a single "null" in key part
-        5)You can use multiple "null" in values part
+        1) HashMap is "not-thread safe".
+        2) HashMap is "non-synchronized".
+        3) HashMap does not put "entries" in any order.
+        4) We can use a single "null" in key part.
+        5) We can use multiple "null" in values part.
     */
     public static void main(String[] args) {
         HashMap<String, Integer> hMap = new HashMap<>();
@@ -27,7 +27,7 @@ public class HashMap01 {
         Set<String> keys = hMap.keySet();
         int totalNumOfLetters = 0;
         //[Tom Hanks, Brad Pitt, Cuneyt Arkin, Angelina Julie, Alex Alex]
-        for(String w : keys){
+        for (String w : keys) {
             totalNumOfLetters = totalNumOfLetters + w.replaceAll("[^a-zA-Z]", "").length();
         }
         System.out.println(totalNumOfLetters);
@@ -37,7 +37,7 @@ public class HashMap01 {
         Collection<Integer> values = hMap.values();
         double sum = 0;
         //[13, 24, 85, 46, 33]
-        for(Integer w : values){
+        for (Integer w : values) {
             sum = sum + w;
         }
         double avg = sum / values.size();
@@ -54,16 +54,16 @@ public class HashMap01 {
         System.out.println(hMap);
 
         //How to get entries from a Map
-        Set<Map.Entry<String,Integer>> entries = hMap.entrySet();
+        Set<Map.Entry<String, Integer>> entries = hMap.entrySet();
         System.out.println(entries);//[Tom Hanks=13, Brad Pitt=24, Cuneyt Arkin=85, Angelina Julie=46, Alex Alex=33]
 
         //Example 3: Get the initials of first 3 entries
         String initials = "";
         int counter = 0;
-        for(Map.Entry<String,Integer> w : entries){
+        for (Map.Entry<String, Integer> w : entries) {
             initials = initials + w.getKey().charAt(0);
             counter++;
-            if(counter == 3){
+            if (counter == 3) {
                 break;
             }
         }

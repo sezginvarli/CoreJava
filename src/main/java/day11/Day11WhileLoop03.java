@@ -6,8 +6,8 @@ public class Day11WhileLoop03 {
         //Type code to print the sum of the digits of an integer
         int i = 237;
         int sum = 0;
-        while(i>0){
-            sum = sum + i%10;
+        while (i > 0) {
+            sum = sum + i % 10;
             i /= 10;//i=i/10
             System.out.println(sum);
         }
@@ -16,7 +16,7 @@ public class Day11WhileLoop03 {
         //3x1=3   3x2=6   ..............   3x10=30
         int j = 3;
         int m = 1;
-        while(m<11){
+        while (m < 11) {
             System.out.println(j + "X" + m + " = " + (j * m));
             m++;
         }

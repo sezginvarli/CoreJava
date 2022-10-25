@@ -17,10 +17,10 @@ public class ListIterator02 {
 
         //Print all elements in reverse order by using iterator.
         ListIterator listIte1 = list.listIterator();
-        while(listIte1.hasNext()){
+        while (listIte1.hasNext()) {
             listIte1.next();
         }
-        while(listIte1.hasPrevious()){
+        while (listIte1.hasPrevious()) {
             System.out.print(listIte1.previous() + " ");//previous() => Returns the previous element in the list and moves the pointer position backwards.
         }
 
@@ -29,7 +29,7 @@ public class ListIterator02 {
         //Add elements into list by using listIterator.
         System.out.println("list = " + list);//[Ali, Veli, Ayse, Fatma, Hayriye]
 
-        while(listIte1.hasNext()){
+        while (listIte1.hasNext()) {
             listIte1.next();
         }
 

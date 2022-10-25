@@ -1,6 +1,6 @@
 package day22;
 
-public class Cat extends Mammal{
+public class Cat extends Mammal {
 
     @Override
     public void eat() {//Overriding Method

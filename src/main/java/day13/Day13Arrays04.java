@@ -9,8 +9,8 @@ public class Day13Arrays04 {
 
         //1st Way: Use regular loops(for-while-do while)
         int i = 0;
-        while(i<arr.length){
-            if(arr[i]<5){
+        while (i < arr.length) {
+            if (arr[i] < 5) {
                 System.out.print(arr[i] + " ");
             }
             i++;
@@ -19,8 +19,8 @@ public class Day13Arrays04 {
         System.out.println("\n===========================");
 
         //2nd Way: Use for-each loop(Enhanced Loop)(for-each loop can be used just with arrays and collections)
-        for(int w:arr){
-            if(w<10){
+        for (int w : arr) {
+            if (w < 10) {
                 System.out.print(w + " ");
             }
         }

@@ -10,10 +10,10 @@ public class Runner {
         System.out.println(Engine.price);
         System.out.println(Security.price);
 
-        //When you create a method with body by using "default" keyword, you can access it just by creating object.
+        //When we create a method with body by using "default" keyword, we can access it just by creating object.
         civic.bacteriaKiller();
 
-        //When you create a method with body by using "static" keyword, you can access it just by using interface name.
+        //When we create a method with body by using "static" keyword, we can access it just by using interface name.
         HondaAC.climateCool();
 
         Pilot pilot = new Pilot();

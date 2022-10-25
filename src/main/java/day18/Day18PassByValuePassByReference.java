@@ -2,11 +2,11 @@ package day18;
 
 public class Day18PassByValuePassByReference {
     /*
-        1)Java creates copy of values in method calls to protect original value of variables.
-          That process is called "Pass By Value"
-        2)By the help of "Pass By Value" we are able to protect the original value.
-        3)Some programming languages may use "Pass By References", if you use that kind of languages be careful
-          about protecting original values.
+        1) Java creates copy of values in method calls to protect original value of variables.
+           That process is called "Pass By Value"
+        2) By the help of "Pass By Value" we are able to protect the original value.
+        3) Some programming languages may use "Pass By References", if you use that kind of languages be careful
+           about protecting original values.
     */
     public static void main(String[] args) {
         int num = 10;
@@ -24,14 +24,14 @@ public class Day18PassByValuePassByReference {
         System.out.println(greeting);//Hello
     }
 
-    public static int add(int num){
+    public static int add(int num) {
         num = num + 5;
 
         return num;
     }
 
-    public static int doDiscount(String status, int price){
-        switch (status){
+    public static int doDiscount(String status, int price) {
+        switch (status) {
             case "students":
                 price = price - 10;
                 break;
@@ -47,7 +47,7 @@ public class Day18PassByValuePassByReference {
         return price;
     }
 
-    public static String addExclamationMark(String greeting){
+    public static String addExclamationMark(String greeting) {
 
         return greeting + "!";
     }

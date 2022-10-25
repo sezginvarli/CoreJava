@@ -22,15 +22,15 @@ public class Day14ForEachLoop01 {
         String expectedElement = "Sql";
 
         int counter = 0;//Flag is used to check if a specific scenario occurred in an array or not
-        for(String w : crr){
-            if(w.equals(expectedElement)){
+        for (String w : crr) {
+            if (w.equals(expectedElement)) {
                 counter++;
                 break;
             }
         }
-        if(counter>0){
+        if (counter > 0) {
             System.out.println("The array has the expected element");
-        }else{
+        } else {
             System.out.println("The array doesn't have the expected element");
         }
 
@@ -41,8 +41,8 @@ public class Day14ForEachLoop01 {
         int[] drr = {12, 2, 23, -5, 12, 23, 12};
         int expected = 12;
         int flag = 0;
-        for(int w : drr){
-            if(w==expected){
+        for (int w : drr) {
+            if (w == expected) {
                 flag++;
             }
         }

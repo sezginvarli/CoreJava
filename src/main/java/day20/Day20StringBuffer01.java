@@ -5,17 +5,17 @@ import java.time.temporal.ChronoUnit;
 
 public class Day20StringBuffer01 {
     /*
-        1)String Class gives you "immutable Strings".
-          If you need "mutable Strings" you can use "StringBuilder" or "StringBuffer" Classes.
-        2)When Java was created, Java created "StringBuffer" Class. But then in Java 1.5 "StringBuilder"
-          came to the stage.
-        3)"StringBuffer" Class is multi-thread and synchronized but "StringBuilder" is not multi-thread
-          and synchronized.
-          Java did that to provide faster mutable String to developers.
-        4)When to use "String", "StringBuilder", "StringBuffer"?
-        "String": If you want to operate with small amount of data use "String".
-        "StringBuilder": If you need single-thread operations with large data in fast pace use "StringBuilder".
-        "StringBuffer": Multi-thread operations with large amount of data needs "StringBuffer".
+        1) String Class gives us "immutable Strings".
+           If we need "mutable Strings" we can use "StringBuilder" or "StringBuffer" Classes.
+        2) When Java was created, Java created "StringBuffer" Class. But then in Java 1.5 "StringBuilder"
+           came to the stage.
+        3) "StringBuffer" Class is multi-thread and synchronized but "StringBuilder" is not multi-thread
+           and synchronized.
+           Java did that to provide faster mutable String to developers.
+        4) When to use "String", "StringBuilder", "StringBuffer"?
+           "String": If we want to operate with small amount of data use "String".
+           "StringBuilder": If we need single-thread operations with large data in fast pace use "StringBuilder".
+           "StringBuffer": Multi-thread operations with large amount of data needs "StringBuffer".
     */
     public static void main(String[] args) {
         String str = "Java";
@@ -29,17 +29,17 @@ public class Day20StringBuffer01 {
         System.out.println("StringBuilder time: " + time2.until(time3, ChronoUnit.NANOS));
     }
 
-    public static StringBuffer performanceOfStringBuffer(String str){
+    public static StringBuffer performanceOfStringBuffer(String str) {
         StringBuffer strBuffer = new StringBuffer(str);
-        for(int i=0; i<10000; i++){
+        for (int i = 0; i < 10000; i++) {
             strBuffer.append("abc");
         }
         return strBuffer;
     }
 
-    public static StringBuilder performanceOfStringBuilder(String str){
+    public static StringBuilder performanceOfStringBuilder(String str) {
         StringBuilder strBuilder = new StringBuilder(str);
-        for(int i=0; i<10000; i++){
+        for (int i = 0; i < 10000; i++) {
             strBuilder.append("abc");
         }
         return strBuilder;

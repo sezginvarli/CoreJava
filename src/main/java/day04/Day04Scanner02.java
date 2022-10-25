@@ -15,6 +15,6 @@ public class Day04Scanner02 {
         double length = input.nextDouble();
 
         System.out.println("The area of rectangle is " + width * length);
-        System.out.println("The perimeter of the rectangle is " + (width + length)*2);
+        System.out.println("The perimeter of the rectangle is " + (width + length) * 2);
     }
 }

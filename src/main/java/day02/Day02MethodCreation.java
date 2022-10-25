@@ -2,34 +2,38 @@ package day02;
 
 public class Day02MethodCreation {
 
-        public static void main(String[] args) {
-            System.out.println(addIntegers(12,5));
-            System.out.println(multiplyIntegers(8,5));
-            System.out.println(subtractIntegers(4,5));
-            System.out.println(divideIntegers(9.6,2));
-        }
-        public static int addIntegers(int a, int b){
+    public static void main(String[] args) {
+        System.out.println(addIntegers(12, 5));
+        System.out.println(multiplyIntegers(8, 5));
+        System.out.println(subtractIntegers(4, 5));
+        System.out.println(divideIntegers(9.6, 2));
+    }
 
-            return a + b;
-        }
-        public static int multiplyIntegers(int a, int b){
+    public static int addIntegers(int a, int b) {
 
-            return a * b;
-        }
-        public static int subtractIntegers(int x, int y){
+        return a + b;
+    }
 
-            return x - y;
-        }
-        public static double divideIntegers(double x, int y){
+    public static int multiplyIntegers(int a, int b) {
 
-            return x / y;
-        }
+        return a * b;
+    }
 
-        //Note 1: If you use same data types for all values in a mathematical operation, the result
-        //        will be in the same data type
+    public static int subtractIntegers(int x, int y) {
 
-        //Note 2: If you use different data types in a mathematical operation, the result
-        //        will be in the largest data type. Example; double / int ==>> double
+        return x - y;
+    }
+
+    public static double divideIntegers(double x, int y) {
+
+        return x / y;
+    }
+
+    //Note 1: If you use same data types for all values in a mathematical operation, the result
+    //        will be in the same data type
+
+    //Note 2: If you use different data types in a mathematical operation, the result
+    //        will be in the largest data type. Example; double / int ==>> double
 
         /*
             What did we learn so far?

@@ -20,8 +20,8 @@ public class Iterator05 {
         //Calculate sum of all elements by using iterator.
         Iterator ite1 = list.iterator();
         int sum = 0;
-        while(ite1.hasNext()){
-            sum += (Integer)ite1.next();
+        while (ite1.hasNext()) {
+            sum += (Integer) ite1.next();
         }
 
         System.out.println("sum = " + sum);

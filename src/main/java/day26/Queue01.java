@@ -7,7 +7,7 @@ import java.util.Queue;
 public class Queue01 {
     /*
         1) "FIFO" means "First In First Out", if you need a functionality contains "FIFO",
-           prefer to use "Queue"
+           prefer to use "Queue".
     */
     public static void main(String[] args) {
         Queue<String> q1 = new LinkedList<>();

@@ -14,7 +14,8 @@ public class StaticKeyword01 {
 
     public static int sCounter = 0;
     public int counter = 0;
-    public StaticKeyword01(){
+
+    public StaticKeyword01() {
         sCounter++;
         counter++;
     }

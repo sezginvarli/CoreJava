@@ -1,8 +1,8 @@
 package day21;
 
-public class Dog extends Animal{
+public class Dog extends Animal {
 
-    public void bark(){
+    public void bark() {
 
         System.out.println("Dogs bark...");
     }

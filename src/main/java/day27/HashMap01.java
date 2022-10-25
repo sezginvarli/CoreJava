@@ -21,11 +21,11 @@ public class HashMap01 {
 
         //Count the occurrences
         Map<String, Integer> result = new HashMap<>();
-        for(String w : letters){
+        for (String w : letters) {
             Integer numOfOccurrence = result.get(w);
-            if(numOfOccurrence==null){
+            if (numOfOccurrence == null) {
                 result.put(w, 1);
-            }else{
+            } else {
                 result.put(w, numOfOccurrence + 1);
             }
         }

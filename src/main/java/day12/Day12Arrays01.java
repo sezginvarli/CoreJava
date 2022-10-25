@@ -5,10 +5,10 @@ import java.util.Arrays;
 public class Day12Arrays01 {
 
     public static void main(String[] args) {
-        //1)Arrays are used for storing multiple data
-        //2)An array can have just a single data type
-        //3)Arrays can store just primitive data types or references of non-primitives
-        //4)When you create an array you have to declared its length(number of elements in array)
+        //1) Arrays are used for storing multiple data
+        //2) An array can have just a single data type
+        //3) Arrays can store just primitive data types or references of non-primitives
+        //4) When you create an array you have to declared its length(number of elements in array)
 
         //How to create an Array
         int[] ages = new int[5];
@@ -33,7 +33,7 @@ public class Day12Arrays01 {
 
         //2nd way:
         int sum = 0;
-        for(int i=0; i<ages.length; i++){
+        for (int i = 0; i < ages.length; i++) {
             sum = sum + ages[i];
         }
         System.out.println(sum);
@@ -44,7 +44,7 @@ public class Day12Arrays01 {
 
         //Find the total number of characters in array elements
         int total = 0;
-        for(int i=0; i<names.length; i++){
+        for (int i = 0; i < names.length; i++) {
             total = total + names[i].length();
         }
         System.out.println(total);//14

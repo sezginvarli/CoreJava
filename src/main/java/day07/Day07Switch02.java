@@ -11,7 +11,7 @@ public class Day07Switch02 {
         System.out.println("Enter day number");
         int dayNumber = input.nextInt();
 
-        switch(dayNumber){
+        switch (dayNumber) {
             case 1:
                 System.out.println("Sunday");
             case 2:

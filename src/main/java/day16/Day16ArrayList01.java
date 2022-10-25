@@ -5,16 +5,16 @@ import java.util.List;
 
 public class Day16ArrayList01 {
     /*
-            1)Arrays are fixed in length which is not good but Lists have flexible length.
-            2)Arrays can store just primitives and references but Lists store non-primitives.
-            3)Arrays use less memory than Lists.
+        1)Arrays are fixed in length which is not good but Lists have flexible length.
+        2)Arrays can store just primitives and references but Lists store non-primitives.
+        3)Arrays use less memory than Lists.
     */
     public static void main(String[] args) {
         //How to create a List(ArrayList)
-            //1st Way: Mostly used
-            List<Integer> al = new ArrayList<>();
-            //2nd Way:
-            ArrayList<Integer> bl = new ArrayList<>();
+        //1st Way: Mostly used
+        List<Integer> al = new ArrayList<>();
+        //2nd Way:
+        ArrayList<Integer> bl = new ArrayList<>();
 
         //How to print a List on console
         System.out.println(al);//[] ==> empty List
@@ -41,8 +41,8 @@ public class Day16ArrayList01 {
         //Create a list and add even integers between 13 and 51 in descending order
         //Then print the 7th element on the console
         List<Integer> cl = new ArrayList<>();
-        for(int i=51; i>12; i--){
-            if(i%2==0){
+        for (int i = 51; i > 12; i--) {
+            if (i % 2 == 0) {
                 cl.add(i);
             }
         }
@@ -83,9 +83,9 @@ public class Day16ArrayList01 {
         gl.add("Cate");
         gl.add("Mehmet");
         gl.add("Carina");
-        for(int i=0; i<gl.size(); i++){
+        for (int i = 0; i < gl.size(); i++) {
             String element = gl.get(i);
-            if(element.startsWith("M") && gl.get(i).endsWith("a")){
+            if (element.startsWith("M") && gl.get(i).endsWith("a")) {
                 gl.remove(i);
                 i--;
             }

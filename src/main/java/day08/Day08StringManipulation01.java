@@ -10,7 +10,7 @@ public class Day08StringManipulation01 {
         //Count the alphabetical characters in a given String
         //    Tom12 Hanks!...
         String name = "   Tom12 Hanks!...  ";
-        int numOfLetters = name.replaceAll("[^A-Za-z]","").length();
+        int numOfLetters = name.replaceAll("[^A-Za-z]", "").length();
         System.out.println("numOfLetters: " + numOfLetters);//8
 
         //Get the initial from full name. (Middle name is out of scope)
@@ -23,19 +23,19 @@ public class Day08StringManipulation01 {
         //starting index is inclusive, ending index is exclusive.
         //Note: The variables used inside the method parenthesis are called "Parameters".
         //Note: The values you used inside the method parenthesis are called "Arguments".
-        String initialOfFirstName = fullName.trim().substring(0,1).toUpperCase();
+        String initialOfFirstName = fullName.trim().substring(0, 1).toUpperCase();
         System.out.println("initial: " + initialOfFirstName);//T
 
         //split() method is used to split a string into specific parts by using a specific characters.
         //The characters you used to split the string will not be visible after splitting.
-        String initialOfLastName = fullName.trim().split(" ")[1].substring(0,1).toUpperCase();
+        String initialOfLastName = fullName.trim().split(" ")[1].substring(0, 1).toUpperCase();
         System.out.println("initialOfLastName: " + initialOfLastName);
         System.out.println(initialOfFirstName + initialOfLastName);//TH
 
         //Example 3: Fix the day names format like "Sunday"
         //"sunday" ==> "Sunday"     "SUNDAY" ==> "Sunday"
         String dayName = "    sUNDAY  ";
-        String initialOfDayName = dayName.trim().substring(0,1).toUpperCase();
+        String initialOfDayName = dayName.trim().substring(0, 1).toUpperCase();
         String otherCharsOfDayName = dayName.trim().substring(1).toLowerCase();
         System.out.println(initialOfDayName + otherCharsOfDayName);
 
@@ -44,7 +44,7 @@ public class Day08StringManipulation01 {
         //Note 1: \\S Different from space(Uppercase means 'different from')
         //Note 2: \\s This has positive meaning, (Space characters)
         String creditCardNumber = "1234 1234 1234 1234";
-        String invisiblePart = creditCardNumber.substring(0,15).replaceAll("\\d","*");
+        String invisiblePart = creditCardNumber.substring(0, 15).replaceAll("\\d", "*");
         String visiblePart = creditCardNumber.substring(15);
         System.out.println(invisiblePart + visiblePart);
 
@@ -52,11 +52,11 @@ public class Day08StringManipulation01 {
         //"Tom Hanks was born in 1975."
         //1. Way:
         String s = "Tom Hanks was born in 1975.";
-        int numOfChars = s.replace(" ","").length();
+        int numOfChars = s.replace(" ", "").length();
         System.out.println("numOfChar: " + numOfChars);
 
         //2. Way:
-        int numOfCharacters = s.replace(" ","").split("").length;
+        int numOfCharacters = s.replace(" ", "").split("").length;
         System.out.println(numOfCharacters);
     }
 }

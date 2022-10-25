@@ -16,11 +16,11 @@ public class Day16ArrayList02 {
         al.add(11);
         System.out.println(al);//[12, 3, 7, 24, 11]
 
-        for(int i=0; i<al.size(); i++){
-            if(al.get(i)%2==0){
+        for (int i = 0; i < al.size(); i++) {
+            if (al.get(i) % 2 == 0) {
                 al.remove(i);
                 i--;
-            }else{
+            } else {
                 al.set(i, 22);
             }
         }
@@ -37,8 +37,8 @@ public class Day16ArrayList02 {
         System.out.println(originalList);
 
         List<Integer> uniqueList = new ArrayList<>();
-        for(int w:originalList){
-            if(!uniqueList.contains(w)){
+        for (int w : originalList) {
+            if (!uniqueList.contains(w)) {
                 uniqueList.add(w);
             }
         }

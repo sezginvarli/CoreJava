@@ -22,8 +22,8 @@ public class Day10ForLoop06 {
         System.out.println(decimalPartInt);//Integer 1528
 
         int sum = 0;
-        for(int i=decimalPartInt; i>0; i=i/10){
-            sum = sum + i%10;
+        for (int i = decimalPartInt; i > 0; i = i / 10) {
+            sum = sum + i % 10;
         }
         System.out.println(sum);
     }

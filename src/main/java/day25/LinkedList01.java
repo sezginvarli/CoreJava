@@ -16,7 +16,7 @@ public class LinkedList01 {
         //adding operation in Linked List
         linked.add("A");
         linked.add("C");
-        linked.add(0,"AliCan");
+        linked.add(0, "AliCan");
         linked.addAll(list);
         linked.addAll(1, list);
         linked.addFirst("K");

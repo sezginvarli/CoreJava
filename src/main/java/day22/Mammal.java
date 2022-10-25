@@ -1,8 +1,8 @@
 package day22;
 
-public class Mammal extends Animal{
+public class Mammal extends Animal {
 
-    public void giveBirth(){
+    public void giveBirth() {
 
         System.out.println("Mammals give birth");
     }

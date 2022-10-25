@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class InterviewQuestion01 {
     //Ask user to enter 2 numbers then swap them
-    // a=12 and b=13 ==> a=13 and b=12
+    //a=12 and b=13 ==> a=13 and b=12
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter first number");
@@ -12,7 +12,7 @@ public class InterviewQuestion01 {
         System.out.println("Enter second number");
         double b = input.nextDouble();
 
-        //1.Way:
+        //1st Way:
         System.out.println(a + " - " + b);// 12 - 13
         double temp = 0;
         //I
@@ -23,7 +23,7 @@ public class InterviewQuestion01 {
         a = temp;
         System.out.println(a + " - " + b);// 13 - 12
 
-        //2.Way:
+        //2nd Way:
         a = a + b;
         b = a - b;
         a = a - b;

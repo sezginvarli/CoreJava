@@ -9,38 +9,38 @@ public class Day07Switch01 {
         System.out.println("Enter month name");
         String month = input.next();
 
-        if(month.equalsIgnoreCase("January")){
+        if (month.equalsIgnoreCase("January")) {
             System.out.println(1);
-        }else if(month.equalsIgnoreCase("February")){
+        } else if (month.equalsIgnoreCase("February")) {
             System.out.println(2);
-        }else if(month.equalsIgnoreCase("March")){
+        } else if (month.equalsIgnoreCase("March")) {
             System.out.println(3);
-        }else if(month.equalsIgnoreCase("April")){
+        } else if (month.equalsIgnoreCase("April")) {
             System.out.println(4);
-        }else if(month.equalsIgnoreCase("May")){
+        } else if (month.equalsIgnoreCase("May")) {
             System.out.println(5);
-        }else if(month.equalsIgnoreCase("Jun")){
+        } else if (month.equalsIgnoreCase("Jun")) {
             System.out.println(6);
-        }else if(month.equalsIgnoreCase("July")){
+        } else if (month.equalsIgnoreCase("July")) {
             System.out.println(7);
-        }else if(month.equalsIgnoreCase("August")){
+        } else if (month.equalsIgnoreCase("August")) {
             System.out.println(8);
-        }else if(month.equalsIgnoreCase("September")){
+        } else if (month.equalsIgnoreCase("September")) {
             System.out.println(9);
-        }else if(month.equalsIgnoreCase("October")) {
+        } else if (month.equalsIgnoreCase("October")) {
             System.out.println(10);
-        }else if(month.equalsIgnoreCase("November")) {
+        } else if (month.equalsIgnoreCase("November")) {
             System.out.println(11);
-        }else if(month.equalsIgnoreCase("December")) {
+        } else if (month.equalsIgnoreCase("December")) {
             System.out.println(12);
-        }else{
+        } else {
             System.out.println("Enter a valid month name");
         }
 
         System.out.println("=============================");
         //Note: If you have more than 3 conditions use switch statement.
 
-        switch(month.toLowerCase()){
+        switch (month.toLowerCase()) {
             case "january":
                 System.out.println(1);
                 break;

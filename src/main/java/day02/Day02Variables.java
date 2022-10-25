@@ -31,8 +31,8 @@ public class Day02Variables {
     }
 
     //How to create a variable
-          //Data Type - Variable Name - Equal Sign - Value - Semi Colon
-    static    int            age            =          12        ;
+    //     Data Type - Variable Name - Equal Sign - Value - Semi Colon
+    static    int           age            =         12         ;
     static int height = 183;
 
     //Create a double variable
@@ -58,10 +58,12 @@ public class Day02Variables {
                                float has 7 digits at most in decimal part.
                         double: It is used for decimals. double is used for scientific researches.
                                double has 16 digits at most in decimal part.
+
             2)Non-Primitive Data Types
                 1)Those data types can be created by Java and Java Developers.
                 String is a non-primitive data type.
                 String data type is used for multiple characters.
+
             Note: What is the difference between "primitive" and "non-primitive" data types?
                 i) Primitive data types starts with lower cases, "non-primitive" data types starts with upper cases.
                 ii) Primitive data types can be created by Java, but "non-primitive" data types can be created by Java
@@ -71,6 +73,6 @@ public class Day02Variables {
                 in it.
         */
 
-        String nameOfStudent = "Mark Twain";
-        String stdId = "Mt2022_01";
+    String nameOfStudent = "Mark Twain";
+    String stdId = "Mt2022_01";
 }

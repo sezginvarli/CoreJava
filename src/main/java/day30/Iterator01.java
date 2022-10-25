@@ -16,7 +16,7 @@ public class Iterator01 {
         list.add(2);
         System.out.println("list = " + list);
 
-        for(Integer w : list){
+        for (Integer w : list) {
             w = w + 3;
             System.out.print(w + " ");
         }
@@ -24,7 +24,7 @@ public class Iterator01 {
         System.out.println();
         System.out.println(list);
 
-        for(Integer w : list){
+        for (Integer w : list) {
             System.out.println(w + 3 + " ");
         }
 

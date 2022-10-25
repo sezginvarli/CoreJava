@@ -1,8 +1,8 @@
 package day23;
 
-public class Bird extends Animal{
+public class Bird extends Animal {
 
-    public Bird(){
+    public Bird() {
 
         System.out.println("Bird constructor worked...");
     }

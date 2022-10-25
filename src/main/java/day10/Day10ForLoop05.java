@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class Day10ForLoop05 {
     /*
-          Ask the user how many fibonacci numbers he wants to see.
-          Then write the code that prints these fibonacci numbers.
-          Example: if user enters 6 output will be 1 1 2 3 5 8
+        Ask the user how many fibonacci numbers he wants to see.
+        Then write the code that prints these fibonacci numbers.
+        Example: if user enters 6 output will be 1 1 2 3 5 8
     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -19,7 +19,7 @@ public class Day10ForLoop05 {
         System.out.print(fibo1 + " ");
         System.out.print(fibo2 + " ");
 
-        for(int i=1; i<n-1; i++){
+        for (int i = 1; i < n - 1; i++) {
             fibonacci = fibo1 + fibo2;
             fibo1 = fibo2;
             fibo2 = fibonacci;

@@ -15,17 +15,17 @@ public class Day06IfElseStatement01 {
 
         //Ask user to enter the score if the score is less than 50 print "Fail" otherwise print "Pass" on the console.
         //1.Way: Recommended
-        if(score<50){
+        if (score < 50) {
             System.out.println("Fail");
-        }else{
+        } else {
             System.out.println("Pass");
         }
 
         //2.Way: Multiple if, not recommended.
-        if(score<50){
+        if (score < 50) {
             System.out.println("Fail");
         }
-        if(score>=50){
+        if (score >= 50) {
             System.out.println("Pass");
         }
 
@@ -34,21 +34,21 @@ public class Day06IfElseStatement01 {
         System.out.println("Enter day number");
         int dayNum = input.nextInt();
 
-        if(dayNum==1){
+        if (dayNum == 1) {
             System.out.println("Sunday");
-        }else if(dayNum==2){
+        } else if (dayNum == 2) {
             System.out.println("Monday");
-        }else if(dayNum==3){
+        } else if (dayNum == 3) {
             System.out.println("Tuesday");
-        }else if(dayNum==4){
+        } else if (dayNum == 4) {
             System.out.println("Wednesday");
-        }else if(dayNum==5){
+        } else if (dayNum == 5) {
             System.out.println("Thursday");
-        }else if(dayNum==6){
+        } else if (dayNum == 6) {
             System.out.println("Friday");
-        }else if(dayNum==7){
+        } else if (dayNum == 7) {
             System.out.println("Saturday");
-        }else{
+        } else {
             System.out.println("Please enter a valid day number");
         }
     }

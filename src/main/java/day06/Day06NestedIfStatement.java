@@ -17,19 +17,19 @@ public class Day06NestedIfStatement {
             If the gender is different from "Male" and "Female" print "No information" on the console.
         */
 
-        if(gender.equals("male")){
-            if(age<13){
+        if (gender.equals("male")) {
+            if (age < 13) {
                 System.out.println("Boy");
-            }else{
+            } else {
                 System.out.println("Man");
             }
-        }else if(gender.equals("female")){
-            if(age<13){
+        } else if (gender.equals("female")) {
+            if (age < 13) {
                 System.out.println("Girl");
-            }else{
+            } else {
                 System.out.println("Woman");
             }
-        }else{
+        } else {
             System.out.println("No information");
         }
     }

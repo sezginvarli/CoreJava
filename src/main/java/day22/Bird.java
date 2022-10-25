@@ -1,6 +1,6 @@
 package day22;
 
-public class Bird extends Animal{
+public class Bird extends Animal {
 
     @Override
     public Animal createAnimal() {
@@ -8,7 +8,7 @@ public class Bird extends Animal{
         return super.createAnimal();
     }
 
-    public void layEgg(){
+    public void layEgg() {
 
         System.out.println("Birds lay eggs");
     }

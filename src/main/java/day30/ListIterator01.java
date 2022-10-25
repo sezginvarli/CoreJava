@@ -17,7 +17,7 @@ public class ListIterator01 {
 
         ListIterator listIte1 = list.listIterator();
         //Add 'X' to all elements.
-        while(listIte1.hasNext()){
+        while (listIte1.hasNext()) {
             listIte1.set(listIte1.next() + "X");//set() method sets the element pointer returns
         }
 

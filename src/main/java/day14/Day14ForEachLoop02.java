@@ -31,7 +31,7 @@ public class Day14ForEachLoop02 {
 
         //Note: "natural order" means "alphabetical order" for Strings and "ascending order" in numbers
 
-        Integer[] drr= {1, 25, 28, 99, 54};
+        Integer[] drr = {1, 25, 28, 99, 54};
         Arrays.sort(drr, Collections.reverseOrder());
         System.out.println(Arrays.toString(drr));
     }

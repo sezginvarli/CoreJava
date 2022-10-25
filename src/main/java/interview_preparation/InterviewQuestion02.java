@@ -16,7 +16,7 @@ public class InterviewQuestion02 {
                             Variables may or may not be final in abstract classes, because of that it is not mandatory to initialize.
 
         3) Note: By the help of the "interface" we can create "multiple parents" for a class.
-                 When you use "abstract class" it is impossible to create "multiple parents"
+                 When you use "abstract class" it is impossible to create "multiple parents".
 
         4) Class "extends" class, Interface "extends" Interface, Class "implements" Interface, Interface can NOT be "child of a class".
     */

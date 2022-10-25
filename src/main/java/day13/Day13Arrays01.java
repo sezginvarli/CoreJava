@@ -13,7 +13,7 @@ public class Day13Arrays01 {
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));//[10, 12, 19, 23, 34, 78]
         int minValue = arr[0];
-        int maxValue = arr[arr.length-1];
+        int maxValue = arr[arr.length - 1];
         int sum = minValue + maxValue;
         System.out.println("Sum: " + sum);
     }

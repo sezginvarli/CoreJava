@@ -1,6 +1,6 @@
 package day23;
 
-public class HTruck extends Truck{
+public class HTruck extends Truck {
 
     @Override
     public void engine() {

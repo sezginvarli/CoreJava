@@ -14,7 +14,7 @@ public class Day07Switch04 {
         System.out.println("Enter one of the operation signs: +, -, *, /, %");
         char opr = input.next().charAt(0);
 
-        switch(opr){
+        switch (opr) {
             case '+':
                 System.out.println(num1 + "+" + num2 + "=" + (num1 + num2));
                 break;

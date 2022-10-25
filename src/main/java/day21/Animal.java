@@ -4,7 +4,7 @@ import day20.Creatures;
 
 public class Animal extends Creatures {
 
-    public void eat(){
+    public void eat() {
 
         System.out.println("Animals eat...");
     }
@@ -14,7 +14,7 @@ public class Animal extends Creatures {
         System.out.println("Animals drink...");
     }
 
-    public void move(){
+    public void move() {
 
         System.out.println("Animals move...");
     }

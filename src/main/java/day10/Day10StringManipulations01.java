@@ -17,11 +17,11 @@ public class Day10StringManipulations01 {
         String firstTwo = name.substring(0, 2);
         System.out.println(firstTwo);//To
 
-        String lastTwo = name.substring(name.length()-2);
+        String lastTwo = name.substring(name.length() - 2);
         System.out.println(lastTwo);//ks
 
         LocalDateTime currentDateTime = LocalDateTime.now();
-        String expectedCurrentDataTime = currentDateTime.toString().substring(0, 19).replaceAll("[^0-9]","");
+        String expectedCurrentDataTime = currentDateTime.toString().substring(0, 19).replaceAll("[^0-9]", "");
         System.out.println(firstTwo + lastTwo + expectedCurrentDataTime);
     }
 }

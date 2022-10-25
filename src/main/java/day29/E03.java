@@ -10,12 +10,12 @@ public class E03 {
         try {
             FileInputStream fis = new FileInputStream("src/main/java/day29/TextFile01");
             int i = 0;
-            while((i = fis.read()) != -1){
-                System.out.println((char)i);
+            while ((i = fis.read()) != -1) {
+                System.out.println((char) i);
             }
-        }catch (FileNotFoundException e){
+        } catch (FileNotFoundException e) {
             e.printStackTrace();
-        }catch (IOException e){
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }

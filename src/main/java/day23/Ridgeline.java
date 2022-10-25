@@ -1,6 +1,6 @@
 package day23;
 
-public class Ridgeline extends Truck{
+public class Ridgeline extends Truck {
 
     @Override
     public void engine() {

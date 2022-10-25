@@ -2,14 +2,14 @@ package day06;
 
 public class Day06NestedTernary {
     /*
-            Type java code by using nested ternary.
-            Write a program to check if a year is leap year or not.
-            If the year is divisible by 100 then it must be divisible by 400.
-            If a year is not divisible by 100 then it must be divisible by 4.
+        Type java code by using nested ternary.
+        Write a program to check if a year is leap year or not.
+        If the year is divisible by 100 then it must be divisible by 400.
+        If a year is not divisible by 100 then it must be divisible by 4.
     */
     public static void main(String[] args) {
         int year = 2000;
-        String result = year%100==0 ? (year%400==0 ? "Leap" : "Not leap") : (year%4==0 ? "Leap" : "Not leap");
+        String result = year % 100 == 0 ? (year % 400 == 0 ? "Leap" : "Not leap") : (year % 4 == 0 ? "Leap" : "Not leap");
         System.out.println(result);
 
         //What if ternary returns different data types

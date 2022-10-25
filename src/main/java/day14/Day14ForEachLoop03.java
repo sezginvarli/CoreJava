@@ -25,9 +25,9 @@ public class Day14ForEachLoop03 {
         Arrays.sort(copyOfArr);
         System.out.println(Arrays.toString(copyOfArr));//[A, B, C]
 
-        if(Arrays.equals(arr, copyOfArr)){
+        if (Arrays.equals(arr, copyOfArr)) {
             System.out.println("Array elements in alphabetical order");
-        }else{
+        } else {
             System.out.println("Array elements are not in alphabetical order");
         }
 
@@ -37,12 +37,12 @@ public class Day14ForEachLoop03 {
         //It is mandatory to be able to get meaningful response from binarySearch()
         Arrays.sort(brr);
         int response1 = Arrays.binarySearch(brr, 13);//binarySearch() returns the index, if the element exists
-                                                         //So zero or positive integers mean the element exists in the array
+        //So zero or positive integers mean the element exists in the array
         System.out.println(response1);
 
         int response2 = Arrays.binarySearch(brr, 14);
         System.out.println(response2);//We will get -6 for 14. i)"-" means 14 does not exist
-                                      //                     ii)"6" means if 14 would exist it would be the 6th element
+        //                     ii)"6" means if 14 would exist it would be the 6th element
 
         //Check if a specific element exists in an Array.
         //If the element exists return the index of the element
@@ -54,9 +54,9 @@ public class Day14ForEachLoop03 {
         Arrays.sort(crr);
         int response3 = Arrays.binarySearch(crr, i);
 
-        if(response3<0){
+        if (response3 < 0) {
             System.out.println(i + " doesn't exist");
-        }else{
+        } else {
             System.out.println("Index of the element " + i + " is " + response3);
         }
     }

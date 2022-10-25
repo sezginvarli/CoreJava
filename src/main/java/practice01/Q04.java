@@ -10,7 +10,8 @@ public class Q04 {
         double a = input.nextDouble();
         System.out.println("Enter the length of the second leg of the right triangle");
         double b = input.nextDouble();
-        double hypotenuse = Math.sqrt(a*a + b*b);
+
+        double hypotenuse = Math.sqrt(a * a + b * b);
         System.out.println("Hypotenuse: " + hypotenuse);
     }
 }

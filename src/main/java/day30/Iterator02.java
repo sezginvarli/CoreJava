@@ -18,7 +18,7 @@ public class Iterator02 {
         System.out.println("list = " + list);//[5, 3, 7, 1, 9, 8, 2]
 
         Iterator ite1 = list.iterator();
-        for(int i=0; i<list.size(); i++){
+        for (int i = 0; i < list.size(); i++) {
             System.out.println(ite1.hasNext() + " == " + ite1.next());
         }
         System.out.println(ite1.hasNext());//false
