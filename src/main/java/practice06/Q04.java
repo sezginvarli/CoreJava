@@ -10,21 +10,26 @@ public class Q04 {
         int year = 2000;
         int numDay = 0;
 
-        switch(month){
-            case 1: case 3:
-            case 5: case 7:
-            case 8: case 10:
+        switch (month) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
             case 12:
                 numDay = 31;
                 break;
-            case 4: case 6:
-            case 9: case 11:
+            case 4:
+            case 6:
+            case 9:
+            case 11:
                 numDay = 30;
                 break;
             case 2:
-                if((year%4==0 && year%100!=0) || year%400==0){
+                if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
                     numDay = 29;
-                }else{
+                } else {
                     numDay = 28;
                 }
                 break;

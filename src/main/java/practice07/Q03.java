@@ -9,7 +9,7 @@ public class Q03 {
         Type a simple 5-item grocery shopping program.
             1st Step: Select a product from the product list and ask how much it weighs.
             2nd Step: Ask if he/she wants to buy another item.
-                If she/he does not want it, show the total amount, if she/he does, select the product again.
+                      If he/she does not want it, show the total amount, if he/she does, select the product again.
             3rd Step: Each time the customer selects an item, add the price of the item they bought to the total price.
             4th Step: Show the total amount to be paid when the shopping is over.
     */
@@ -32,7 +32,8 @@ public class Q03 {
 
         buyProduct();
     }
-    public static void buyProduct(){
+
+    public static void buyProduct() {
         Scanner input = new Scanner(System.in);
         System.out.println(productList);
         System.out.println("Enter the product code you want to buy");
@@ -40,21 +41,23 @@ public class Q03 {
         System.out.println(priceList);
         System.out.println("Enter how many kilograms you want to buy");
         double kilograms = input.nextDouble();
-        double productPrice = priceList.get(codeOfProduct-1);
+        double productPrice = priceList.get(codeOfProduct - 1);
         double totalProductPrice = productPrice * kilograms;
         totalAmount += totalProductPrice;
 
-        System.out.println("The product you chose: " + productList.get(codeOfProduct-1));
+        System.out.println("The product you chose: " + productList.get(codeOfProduct - 1));
         System.out.println("Product price: " + totalProductPrice);
-        System.out.println("To continue to shop enter 1, to go to the grocery checkout enter 2");
+        System.out.println("To continue to shopping enter 1, to go to the grocery checkout enter 2");
         int decision = input.nextInt();
-        if(decision==1){
+
+        if (decision == 1) {
             buyProduct();
-        }else{
+        } else {
             groceryCheckout();
         }
     }
-    public static void groceryCheckout(){
+
+    public static void groceryCheckout() {
         System.out.println("Total Amount: " + totalAmount);
     }
 }

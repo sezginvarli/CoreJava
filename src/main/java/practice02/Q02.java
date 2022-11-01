@@ -16,13 +16,13 @@ public class Q02 {
         System.out.println("Enter 2nd word");
         String word2 = input.next();
 
-        if(word1.length()%2==0){
-            String str1 = word1.substring(0, word1.length()/2);
+        if (word1.length() % 2 == 0) {
+            String str1 = word1.substring(0, word1.length() / 2);
             System.out.println("str1: " + str1);
-            String str2 = word1.substring(word1.length()/2);
+            String str2 = word1.substring(word1.length() / 2);
             System.out.println("str2: " + str2);
             System.out.println(str1 + word2 + str2);
-        }else{
+        } else {
             System.out.println("You can not put second into the middle of the first word. Because it's number of character is odd.");
         }
     }

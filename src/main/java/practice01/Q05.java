@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Q05 {
     /*
-        Type java code by using ternary. Ask user to enter two integer.
+        Type a java code by using ternary. Ask user to enter two integer.
         Write a program to print the maximum one on the console. (Do not forget they may be equal)
     */
     public static void main(String[] args) {

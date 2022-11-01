@@ -17,10 +17,12 @@ public class Runner {
 
         Budget.getSalary(20000);
         Budget.getSalary(10000);
+
         daughter.getSalary(5000);
+
         son.getSalary(1000);
 
-        System.out.println("House Budget: " + Budget.houseBudget);
+        System.out.println("House Budget: " + Budget.houseBudget);//38000
         System.out.println("Son ownBudget: " + son.ownBudget);//1850
         System.out.println("Daughter ownBudget: " + daughter.ownBudget);//1600
     }

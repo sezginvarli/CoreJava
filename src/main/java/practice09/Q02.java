@@ -16,11 +16,11 @@ public class Q02 {
         System.out.println("Enter number of rows");
         int row = input.nextInt();
 
-        for(int i=0; i<row; i++){
-            for(int space=row-i; space>1; space--){
+        for (int i = 0; i < row; i++) {
+            for (int space = row - i; space > 1; space--) {
                 System.out.print(" ");
             }
-            for(int star=0; star<=i; star++){
+            for (int star = 0; star <= i; star++) {
                 System.out.print("* ");
             }
             System.out.println();

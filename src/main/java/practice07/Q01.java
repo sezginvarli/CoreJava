@@ -11,7 +11,7 @@ public class Q01 {
         */
 
         String str = "civic";
-        String reversedSTR = new StringBuilder(str).reverse().toString();
-        System.out.println("Is String palindrome? " + str.equals(reversedSTR));
+        String reversedStr = new StringBuilder(str).reverse().toString();
+        System.out.println("Is String palindrome? " + str.equals(reversedStr));
     }
 }

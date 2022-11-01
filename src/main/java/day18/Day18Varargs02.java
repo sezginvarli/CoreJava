@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Day18Varargs02 {
     /*
-        Find the middle element by using vararg
+        Find the middle element by using vararg.
         Example: (12, 5, 8) ==> (5, 8, 12) ==> Output=8
         (12, 5, 8, 13) ==> (5, 8, 12, 13) ==> Output=(8+12)/2=10
     */

@@ -5,12 +5,12 @@ import java.util.Scanner;
 
 public class Q03 {
     /*
-         Create  a method to ask user to enter two strings and check them if they are "Anagram" or not.
+         Create a method to ask user to enter two strings and check them if they are "Anagram" or not.
 
           ===Interview Question===
          * Anagram is to create a new word from other word's characters.
-		 * Write java code to check if two words are anagram or not
-		 * isAnagram("listen", "Silent") ==> anagram
+		 * Write a java code to check if two words are anagram or not
+		 * isAnagram("listen", "silent") ==> anagram
 		 * Dormitory = Dirty room
 		 * School master = The classroom
 		 * Conversation = Voices rant on
@@ -26,15 +26,16 @@ public class Q03 {
 
         anagram(first, second);
     }
-    public static void anagram(String str1, String str2){
-        String[] sArr = str1.toLowerCase().replace(" ","").split("");
-        String[] sBrr = str2.toLowerCase().replace(" ","").split("");
-        Arrays.sort(sArr);
-        Arrays.sort(sBrr);
 
-        if(Arrays.equals(sArr, sBrr)){
+    public static void anagram(String str1, String str2) {
+        String[] arr = str1.toLowerCase().replace(" ", "").split("");
+        String[] brr = str2.toLowerCase().replace(" ", "").split("");
+        Arrays.sort(arr);
+        Arrays.sort(brr);
+
+        if (Arrays.equals(arr, brr)) {
             System.out.println("Anagram");
-        }else{
+        } else {
             System.out.println("Not Anagram");
         }
     }

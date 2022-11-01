@@ -12,10 +12,11 @@ public class Q02 {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a String");
         String str = input.nextLine();
-        if(str.length()<3){
-            System.out.println("Enter a string that has more than 2 characters");
-        }else {
-            String lastThreeChars = str.substring(str.length()-3);
+
+        if (str.length() < 3) {
+            System.out.println("Enter a String that has more than 2 characters");
+        } else {
+            String lastThreeChars = str.substring(str.length() - 3);
             System.out.println(lastThreeChars + str + lastThreeChars);
         }
     }

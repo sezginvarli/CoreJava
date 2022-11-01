@@ -1,6 +1,5 @@
 package practice07;
 
-import javax.print.attribute.standard.PresentationDirection;
 import java.util.Scanner;
 
 public class Q02 {
@@ -13,10 +12,10 @@ public class Q02 {
         double y = scan.nextDouble();
         System.out.println("Enter third number");
         double z = scan.nextDouble();
-        System.out.println("smallest: " + smallest(x,y,z));
+        System.out.println("smallest: " + smallest(x, y, z));
     }
-    public static double smallest(double x, double y, double z){
-        double result = Math.min(Math.min(x, y), z);
-        return result;
+
+    public static double smallest(double x, double y, double z) {
+        return Math.min(Math.min(x, y), z);
     }
 }

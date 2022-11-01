@@ -30,7 +30,7 @@ public class Day19StringBuilder01 {
           Note: "equals()" method checks just the values not the addresses. If the values are same we will get true.
                 When we work with Strings, we work with the values mostly, therefore we use "equals()" when we
                 compare Strings
-   */
+    */
     public static void main(String[] args) {
         String str1 = "Java";
         String str2 = "Java";
@@ -101,7 +101,7 @@ public class Day19StringBuilder01 {
         System.out.println(sb9);//avaJ
 
         StringBuilder sb10 = new StringBuilder("Java is love");
-        String newSb10 = sb10.substring(8);//methods come from "immutable class" cannot update the original
+        String newSb10 = sb10.substring(8);//Methods come from "immutable class" cannot update the original
         //value even in mutable classes
         System.out.println(newSb10);//love
         System.out.println(sb10);//Java is love

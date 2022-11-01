@@ -1,15 +1,15 @@
 package practice05;
 
-import java.util.Locale;
-
 public class Q02 {
-    //Create method to print "Mark" on console by picking the characters from the "alphabet string".
-    // String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    //Create a method to print "Mark" on console by picking the characters from the "alphabet string".
     String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
     public static void main(String[] args) {
-        System.out.println(nameIt("M","A","R","K"));
+
+        System.out.println(nameIt("M", "A", "R", "K"));
     }
-    public static String nameIt(String str1, String str2, String str3, String str4){
+
+    public static String nameIt(String str1, String str2, String str3, String str4) {
         Q02 obj = new Q02();
         String alph = obj.alphabet;
 

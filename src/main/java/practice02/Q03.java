@@ -11,9 +11,9 @@ public class Q03 {
             Ask user for their salary and year of service and print the net bonus amount.
             If employee can not get bonus, print how many more years he/she should work.
             EXAMPLE:
-            INPUT  :  Year    => 4 year service
-                      Salary  => 4000
-            OUTPUT :  You need to work 1 year(s) to get bonus
+            INPUT  : Year    => 4 year service
+                     Salary  => 4000
+            OUTPUT : You need to work 1 year(s) to get bonus
         */
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the year of service");
@@ -21,11 +21,11 @@ public class Q03 {
         System.out.println("Enter your salary");
         int salary = Math.abs(scan.nextInt());
 
-        if(year>=5){
-            int bonus = salary*5/100;
+        if (year >= 5) {
+            int bonus = salary * 5 / 100;
             System.out.println("Your bonus: " + bonus);
-        }else{
-            System.out.println("You should work " + (5-year) + " year(s) more.");
+        } else {
+            System.out.println("You should work " + (5 - year) + " year(s) more.");
         }
     }
 }

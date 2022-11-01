@@ -10,8 +10,8 @@ public class Q04 {
         System.out.println(Arrays.toString(arr));
         String strNew = "";
 
-        for(int i=arr.length-1; i>=0; i--){
-            if(arr[i].equalsIgnoreCase("a") || arr[i].equalsIgnoreCase("e") || arr[i].equalsIgnoreCase("i") || arr[i].equalsIgnoreCase("o") || arr[i].equalsIgnoreCase("u")){
+        for (int i = arr.length - 1; i >= 0; i--) {
+            if (arr[i].equalsIgnoreCase("a") || arr[i].equalsIgnoreCase("e") || arr[i].equalsIgnoreCase("i") || arr[i].equalsIgnoreCase("o") || arr[i].equalsIgnoreCase("u")) {
                 arr[i] = "*";
             }
             strNew = strNew + arr[i];
