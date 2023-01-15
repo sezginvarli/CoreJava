@@ -7,6 +7,7 @@ public class Day02MethodCreation {
         System.out.println(multiplyIntegers(8, 5));
         System.out.println(subtractIntegers(4, 5));
         System.out.println(divideIntegers(9.6, 2));
+        System.out.println(subIntegers(5,3));
     }
 
     public static int addIntegers(int a, int b) {
@@ -27,6 +28,10 @@ public class Day02MethodCreation {
     public static double divideIntegers(double x, int y) {
 
         return x / y;
+    }
+
+    public static int subIntegers(int s, int v){
+        return s-v;
     }
 
     //Note 1: If you use same data types for all values in a mathematical operation, the result
